@@ -42,7 +42,7 @@ Please:
 
 Return ONLY the code/changes. Be specific and complete."""
 
-url = f"https://bedrock-runtime.{aws_region}.amazonaws.com/model/anthropic.claude-haiku-4-5/invoke"
+url = f"https://bedrock-runtime.{aws_region}.amazonaws.com/model/anthropic.claude-haiku-4-5-20251001-v1:0/invoke"
     headers = {
         "Authorization": f"Bearer {bearer_token}",
         "Content-Type": "application/json",

@@ -180,7 +180,7 @@ permissions:
 En `.github/scripts/generate-from-issue.py` y `auto-review-pr.py`:
 
 ```python
-url = f"https://bedrock-runtime.{aws_region}.amazonaws.com/model/anthropic.claude-sonnet-5/invoke"
+url = f"https://bedrock-runtime.{aws_region}.amazonaws.com/model/anthropic.claude-haiku-4-5-20251001-v1:0/invoke"
 # Modelos disponibles:
 # - anthropic.claude-opus-5
 # - anthropic.claude-opus-4-8

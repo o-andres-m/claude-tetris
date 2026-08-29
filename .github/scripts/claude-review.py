@@ -94,7 +94,7 @@ Please provide:
 Be specific and actionable. Format your response in markdown."""
 
     # Bedrock API endpoint
-    url = f"https://bedrock-runtime.{aws_region}.amazonaws.com/model/anthropic.claude-opus-5/invoke"
+    url = f"https://bedrock-runtime.{aws_region}.amazonaws.com/model/anthropic.claude-haiku-4-5-20251001-v1:0/invoke"
 
     headers = {
         "Authorization": f"Bearer {bearer_token}",
