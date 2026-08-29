@@ -61,7 +61,7 @@ DETAILS: [Detailed review comments]
 
 If APPROVED is YES, the PR will be merged automatically."""
 
-    url = f"https://bedrock-runtime.{aws_region}.amazonaws.com/model/anthropic.claude-haiku-4-5-20251001-v1:0/invoke"
+    url = f"https://bedrock-runtime.{aws_region}.amazonaws.com/inference-profiles/us.anthropic.claude-3-haiku-20240307-v1:0/invoke"
 
     headers = {
         "Authorization": f"Bearer {bearer_token}",
